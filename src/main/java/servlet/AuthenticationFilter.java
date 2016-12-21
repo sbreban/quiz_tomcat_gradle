@@ -1,4 +1,4 @@
-/**
+package servlet; /**
  * Created by Sergiu on 18.01.2016.
  */
 import javax.servlet.Filter;

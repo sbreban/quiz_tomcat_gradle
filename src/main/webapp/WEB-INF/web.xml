@@ -3,7 +3,7 @@
 
     <filter>
         <filter-name>AuthenticationFilter</filter-name>
-        <filter-class>AuthenticationFilter</filter-class>
+        <filter-class>servlet.AuthenticationFilter</filter-class>
     </filter>
     <filter-mapping>
         <filter-name>AuthenticationFilter</filter-name>
@@ -12,7 +12,7 @@
 
     <servlet>
         <servlet-name>loginServlet</servlet-name>
-        <servlet-class>LoginServlet</servlet-class>
+        <servlet-class>servlet.LoginServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>loginServlet</servlet-name>
@@ -21,7 +21,7 @@
 
     <servlet>
         <servlet-name>logoutServlet</servlet-name>
-        <servlet-class>LogoutServlet</servlet-class>
+        <servlet-class>servlet.LogoutServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>logoutServlet</servlet-name>
@@ -30,7 +30,7 @@
 
     <servlet>
         <servlet-name>wrongLoginServlet</servlet-name>
-        <servlet-class>WrongLoginServlet</servlet-class>
+        <servlet-class>servlet.WrongLoginServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>wrongLoginServlet</servlet-name>
@@ -39,7 +39,7 @@
 
     <servlet>
         <servlet-name>dataServlet</servlet-name>
-        <servlet-class>DataServlet</servlet-class>
+        <servlet-class>servlet.DataServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>dataServlet</servlet-name>
@@ -48,7 +48,7 @@
 
     <servlet>
         <servlet-name>questionServlet</servlet-name>
-        <servlet-class>QuestionServlet</servlet-class>
+        <servlet-class>servlet.QuestionServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>questionServlet</servlet-name>
